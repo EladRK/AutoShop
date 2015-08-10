@@ -6,15 +6,8 @@ var path = require('path');
 
 app.use(bodyParser.json())
 
-//app.use(express.static(path.join(__dirname, '../webclient')));
+app.use(express.static(path.join(__dirname, '../webclient')));
 
-app.get('/', function (req, res) {
-  
-  //res.render('index.html');
-  res.send('Hello World');
-  
-  console.log('get message');
-});
 
 app.get('/api/shop/electronicShop', function (req, res) {
   res.json(
