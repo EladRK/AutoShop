@@ -1,0 +1,19 @@
+{
+  "name": "AutoShop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./webserver/server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node ./webserver/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EladRK/AutoShop.git"
+  },
+  "author": "Elad RK",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/EladRK/AutoShop/issues"
+  }
+}
