@@ -14,12 +14,13 @@
     "test",
     "tests"
   ],
-    "dependencies": {
+  "dependencies": {
     "angular-material": "~0.10.0",
     "angular-route": "~1.4.0",
-    "angular": "~1.4.0",
-    "bootstrap": "~3.3.4",
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5",
     "bootswatch-dist": "3.3.4-paper",
-    "ngmap": "~1.7.11"
+    "ngmap": "~1.7.11",
+    "jquery": "~2.1.4"
   }
 }

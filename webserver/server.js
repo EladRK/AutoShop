@@ -2,18 +2,16 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser')
-var path         = require('path');
+var path = require('path');
 
-
-//app.use(express.bodyParser());
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, '../webclient')));
+//app.use(express.static(path.join(__dirname, '../webclient')));
 
 app.get('/', function (req, res) {
   
-  res.render('index.html');
-  //res.send('Hello World');
+  //res.render('index.html');
+  res.send('Hello World');
   
   console.log('get message');
 });
@@ -54,4 +52,4 @@ app.post('/push2', function(req, res) {
 });
 
 
-app.listen(3000);
+app.listen(4000);
